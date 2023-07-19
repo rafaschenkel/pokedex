@@ -1,0 +1,171 @@
+.pokemons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+}
+
+.pokemon {
+    background: url('../img/background.png') no-repeat center;
+    background-size: 200px;
+    background-position: 90% 90%;
+    width: 280px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.eletric {
+    background-color: #f7cf2e;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.unknown {
+    background-color: #111;
+}
+
+.shadow {
+    background-color: #444;
+}
+
+.electric {
+    background-color: #c9c62f;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.pokemon-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.number {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.type {
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: #fff;
+    text-align: center;
+    filter: brightness(1.1);
+    text-transform: capitalize;
+}
+
+.pokemon-img {
+    width: 190px;
+    height: 190px;
+}
+
+
+.button {
+    background-color: #ac46ff;
+    color: #eee;
+    padding: 10px 15px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    background-color: #7f11d8;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 922px) {
+    .pokemons {
+        justify-content: space-between;
+    }
+}

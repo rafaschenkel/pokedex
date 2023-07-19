@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/card.css">
+</head>
+
+<body>
+    <section>
+        <div class="section-header">
+            <img class="logo" src="./assets/img/logo.png" alt="logo">
+            <h1>Pokedex</h1>
+        </div>
+
+        <ol id="pokemonList" class="pokemons"></ol>
+
+        <button id="prevButton" class="button" type="button">Prev</button>
+        <button id="nextButton" class="button" type="button">Next</button>
+    </section>
+
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
