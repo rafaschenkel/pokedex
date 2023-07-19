@@ -87,6 +87,10 @@
     border: 1px solid #5554;
 }
 
+.stat p {
+    margin-right: 10px;
+}
+
 .hp {
     color: #108d00;
 }
@@ -99,11 +103,11 @@
     color: #723d0c;
 }
 
-.sp-attack {
+.special-attack {
     color: #aa0000;
 }
 
-.sp-defense {
+.special-defense {
     color: #4b2603;
 }
 
@@ -111,7 +115,7 @@
     color: #002999;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
     .card-header {
         flex-direction: column;
     }
@@ -122,5 +126,9 @@
 
     .stat {
         margin: 5px 0;
+    }
+
+    .card {
+        width: 280px;
     }
 }
